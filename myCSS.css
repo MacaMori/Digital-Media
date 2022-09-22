@@ -1,6 +1,7 @@
 @charset "UTF-8";
 body {
 	margin: 0 auto;
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
 }
 .homePage {
 	background: #222222;
@@ -42,4 +43,13 @@ body {
 	width: 100%;
 	height: 50px;
 	text-align: center;
+}
+a:link {
+     color: #FFFFFF;
+}
+a:visited {
+     color: #000;
+}
+a:hover, a:active, a:focus { 
+     text-decoration: underline;
 }
